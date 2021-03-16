@@ -1,0 +1,26 @@
+{
+  "name": "backend-estoque-caixa",
+  "version": "1.0.0",
+  "description": "backend-estoque-caixa",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaore10/backend-estoque-caixa.git"
+  },
+  "keywords": [],
+  "author": "João Vitor de Almeida Ré",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaore10/backend-estoque-caixa/issues"
+  },
+  "homepage": "https://github.com/joaore10/backend-estoque-caixa#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
