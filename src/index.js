@@ -1,10 +1,10 @@
 const express = require('express')
 const server = express()
+server.use(express.json())
 
-//Rota para acesso a API
-server.get('/teste', (req, res) => {
-    res.send('Mudei API')
-})
+const ProductRoutes = require('./routes/ProductRoutes') // importamos a rotas do ProdutoRoutes.js
+
+server.use('/produto', ProductRoutes) // Sempre que requisitar um /produto na url ele vai chamr o arquivo de rotas 
 
 
 // Inicialização do servidor para a api ficar online
